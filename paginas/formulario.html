@@ -41,14 +41,14 @@
         <div class="contact-wrapper animated bounceInUp">
             <div class="contact-form">
                 <h3>Contacto </h3>
-                <form action="">
+                <form action="#" method="get">
                     <p>
                         <label>nombre</label>
-                        <input type="text" name="fullname">
+                        <input type="text" name="fullname" minlength="20" maxlength="30" required>
                     </p>
                     <p>
                         <label>Email </label>
-                        <input type="email" name="email">
+                        <input type="email" name="email" minlength="20" maxlength="30" required>
                     </p>
                     <p>
                         <label>numero telefono</label>
@@ -56,16 +56,14 @@
                     </p>
                     <p>
                         <label>edad</label>
-                        <input type="text" name="edad ">
+                        <input type="text" name="edad " min="20">
                     </p>
                     <p class="block">
                        <label>dejanos un mensaje</label> 
                         <textarea name="message" rows="3"></textarea>
                     </p>
                     <p class="block">
-                        <button>
-                            enviar
-                        </button>
+                        <input value="enviar" type="submit"></input>
                     </p>
                 </form>
             </div>
