@@ -12,3 +12,10 @@ position: relative;
 top: 40px;
 
 }
+.informacionuni {
+    display: flex;
+    width: 100vh;
+    margin-left: -400px;
+    margin-top: 500px;
+    
+}
