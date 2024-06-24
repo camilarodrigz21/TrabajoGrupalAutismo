@@ -1,0 +1,14 @@
+.container-informacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+#cont-img{
+width: 500px;
+height: 390px;
+border-radius: 3%;
+position: relative;
+top: 40px;
+
+}
